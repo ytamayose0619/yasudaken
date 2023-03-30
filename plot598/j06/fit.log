@@ -1,0 +1,263 @@
+
+
+*******************************************************************************
+Wed Mar  8 13:48:12 2023
+
+
+FIT:    data read from "< awk '(($2==96 && $4==0.6) || ($2==80 && $4==0.6) || ($2==64 && $4==0.6)){print}' ../accum.dat" u 3:2:($27/$2):($28/$2)
+        format = x:y:z:s
+        #datapoints = 33
+function used for fitting: g(x,y)
+	g(x,y)=a+b*f(x,y)+c*f(x,y)**2
+	f(x,y)=(x-ac)*y**(1./nu)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   ac            a             b             c            
+   0 9.7366309907e+11   0.00e+00  1.47e+06    5.000000e-01   1.000000e+00   1.000000e+00   1.000000e-01
+   9 7.6268851053e+01  -5.05e-02  1.47e-03    5.505917e-01   2.950005e-01   2.106674e-02   1.168571e-04
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 76.2689
+rel. change during last iteration : -5.05461e-07
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.62172
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.62996
+p-value of the Chisq distribution (FIT_P)              : 4.01737e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+ac              = 0.550592         +/- 7.277e-05    (0.01322%)
+a               = 0.295            +/- 0.0007107    (0.2409%)
+b               = 0.0210667        +/- 0.0001093    (0.519%)
+c               = 0.000116857      +/- 6.366e-05    (54.48%)
+
+correlation matrix of the fit parameters:
+                ac     a      b      c      
+ac              1.000 
+a               0.955  1.000 
+b               0.224  0.178  1.000 
+c               0.422  0.224  0.485  1.000 
+
+
+*******************************************************************************
+Tue Mar 28 17:01:23 2023
+
+
+FIT:    data read from "< awk '(($2==96 && $4==0.06) || ($2==80 && $4==0.06) || ($2==64 && $4==0.06)){print}' ../accum.dat" u 3:2:($27/$2):($28/$2)
+        format = x:y:z:s
+        x range restricted to [0.478000 : 0.488000]
+        #datapoints = 33
+function used for fitting: g(x,y)
+	g(x,y)=a+b*f(x,y)+c*f(x,y)**2
+	f(x,y)=(x-ac)*y**(1./nu)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   ac            a             b             c            
+   0 3.9490070736e+07   0.00e+00  8.20e+02    5.000000e-01   1.000000e+00   1.000000e-03   1.000000e-05
+  27 9.1464323601e+01  -2.36e-02  8.20e-06    4.828187e-01   3.281784e-01   3.716765e-02   1.984896e-03
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 91.4643
+rel. change during last iteration : -2.3605e-07
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.77593
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.15394
+p-value of the Chisq distribution (FIT_P)              : 2.16298e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+ac              = 0.482819         +/- 5.519e-05    (0.01143%)
+a               = 0.328178         +/- 0.0009237    (0.2815%)
+b               = 0.0371677        +/- 0.0001697    (0.4565%)
+c               = 0.0019849        +/- 8.287e-05    (4.175%)
+
+correlation matrix of the fit parameters:
+                ac     a      b      c      
+ac              1.000 
+a               0.956  1.000 
+b               0.648  0.634  1.000 
+c               0.424  0.228  0.445  1.000 
+
+
+*******************************************************************************
+Tue Mar 28 17:03:50 2023
+
+
+FIT:    data read from "< awk '(($2==96 && $4==0.06) || ($2==80 && $4==0.06) || ($2==64 && $4==0.06)){print}' ../accum.dat" u 3:2:($27/$2):($28/$2)
+        format = x:y:z:s
+        x range restricted to [0.478000 : 0.488000]
+        #datapoints = 33
+function used for fitting: g(x,y)
+	g(x,y)=a+b*f(x,y)+c*f(x,y)**2
+	f(x,y)=(x-ac)*y**(1./nu)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   ac            a             b             c            
+   0 3.9490070736e+07   0.00e+00  8.20e+02    5.000000e-01   1.000000e+00   1.000000e-03   1.000000e-05
+  27 9.1464323601e+01  -2.36e-02  8.20e-06    4.828187e-01   3.281784e-01   3.716765e-02   1.984896e-03
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 91.4643
+rel. change during last iteration : -2.3605e-07
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.77593
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.15394
+p-value of the Chisq distribution (FIT_P)              : 2.16298e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+ac              = 0.482819         +/- 5.519e-05    (0.01143%)
+a               = 0.328178         +/- 0.0009237    (0.2815%)
+b               = 0.0371677        +/- 0.0001697    (0.4565%)
+c               = 0.0019849        +/- 8.287e-05    (4.175%)
+
+correlation matrix of the fit parameters:
+                ac     a      b      c      
+ac              1.000 
+a               0.956  1.000 
+b               0.648  0.634  1.000 
+c               0.424  0.228  0.445  1.000 
+
+
+*******************************************************************************
+Tue Mar 28 17:04:26 2023
+
+
+FIT:    data read from "< awk '(($2==96 && $4==0.06) || ($2==80 && $4==0.06) || ($2==64 && $4==0.06)){print}' ../accum.dat" u 3:2:($27/$2):($28/$2)
+        format = x:y:z:s
+        x range restricted to [0.770000 : 0.780000]
+        #datapoints = 33
+function used for fitting: g(x,y)
+	g(x,y)=a+b*f(x,y)+c*f(x,y)**2
+	f(x,y)=(x-ac)*y**(1./nu)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   ac            a             b             c            
+   0 7.0622374019e+07   0.00e+00  1.07e+03    5.000000e-01   1.000000e+00   1.000000e-03   1.000000e-05
+  65 5.4093314583e+01   0.00e+00  1.07e+08    7.751442e-01   3.556594e-01  -1.315989e-02   3.134907e-04
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 54.0933
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.36575
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.86529
+p-value of the Chisq distribution (FIT_P)              : 0.00315632
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+ac              = 0.775144         +/- 0.0001163    (0.015%)
+a               = 0.355659         +/- 0.0007061    (0.1985%)
+b               = -0.0131599       +/- 0.0001083    (0.8227%)
+c               = 0.000313491      +/- 6.697e-05    (21.36%)
+
+correlation matrix of the fit parameters:
+                ac     a      b      c      
+ac              1.000 
+a              -0.952  1.000 
+b               0.376 -0.369  1.000 
+c              -0.415  0.202 -0.158  1.000 
+
+
+*******************************************************************************
+Tue Mar 28 17:07:19 2023
+
+
+FIT:    data read from "< awk '(($2==96 && $4==0.06) || ($2==80 && $4==0.06) || ($2==64 && $4==0.06)){print}' ../accum.dat" u 3:2:($27/$2):($28/$2)
+        format = x:y:z:s
+        x range restricted to [0.770000 : 0.780000]
+        #datapoints = 33
+function used for fitting: g(x,y)
+	g(x,y)=a+b*f(x,y)+c*f(x,y)**2
+	f(x,y)=(x-ac)*y**(1./nu)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   ac            a             b             c            
+   0 7.0622374019e+07   0.00e+00  1.07e+03    5.000000e-01   1.000000e+00   1.000000e-03   1.000000e-05
+  65 5.4093314583e+01   0.00e+00  1.07e+08    7.751442e-01   3.556594e-01  -1.315989e-02   3.134907e-04
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 54.0933
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.36575
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.86529
+p-value of the Chisq distribution (FIT_P)              : 0.00315632
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+ac              = 0.775144         +/- 0.0001163    (0.015%)
+a               = 0.355659         +/- 0.0007061    (0.1985%)
+b               = -0.0131599       +/- 0.0001083    (0.8227%)
+c               = 0.000313491      +/- 6.697e-05    (21.36%)
+
+correlation matrix of the fit parameters:
+                ac     a      b      c      
+ac              1.000 
+a              -0.952  1.000 
+b               0.376 -0.369  1.000 
+c              -0.415  0.202 -0.158  1.000 
+
+
+*******************************************************************************
+Wed Mar 29 13:33:22 2023
+
+
+FIT:    data read from "< awk '(($2==96 && $4==0.6) || ($2==80 && $4==0.6) || ($2==64 && $4==0.6)){print}' ../accum.dat" u 3:2:($27/$2):($28/$2)
+        format = x:y:z:s
+        x range restricted to [0.00000 : 0.0100000]
+        #datapoints = 33
+function used for fitting: g(x,y)
+	g(x,y)=a+b*f(x,y)+c*f(x,y)**2
+	f(x,y)=(x-ac)*y**(1./nu)
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'ac' is zero.
+iter      chisq       delta/lim  lambda   ac            a             b             c            
+   0 1.0306536309e+09   0.00e+00  3.21e+03    1.000000e-30   1.000000e+00   1.000000e-03   1.000000e-05
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 29 13:34:35 2023
+
+
+FIT:    data read from "< awk '(($2==96 && $4==0.6) || ($2==80 && $4==0.6) || ($2==64 && $4==0.6)){print}' ../accum.dat" u 3:2:($27/$2):($28/$2)
+        format = x:y:z:s
+        x range restricted to [0.00000 : 0.0100000]
+        #datapoints = 33
+function used for fitting: g(x,y)
+	g(x,y)=a+b*f(x,y)+c*f(x,y)**2
+	f(x,y)=(x-ac)*y**(1./nu)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   ac            a             b             c            
+   0 1.0248278744e+09   0.00e+00  3.21e+03    5.000000e-03   1.000000e+00   1.000000e-03   1.000000e-05
+   9 7.4621002504e+03  -2.60e-02  3.21e-06    6.007290e-03   1.974183e-01   4.926163e-02   6.007261e-03
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 7462.1
+rel. change during last iteration : -2.60102e-07
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 16.041
+variance of residuals (reduced chisquare) = WSSR/ndf   : 257.314
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+ac              = 0.00600729       +/- 0.0001433    (2.386%)
+a               = 0.197418         +/- 0.003311     (1.677%)
+b               = 0.0492616        +/- 0.001129     (2.291%)
+c               = 0.00600726       +/- 0.0002002    (3.333%)
+
+correlation matrix of the fit parameters:
+                ac     a      b      c      
+ac              1.000 
+a               0.969  1.000 
+b               0.803  0.850  1.000 
+c               0.248  0.258  0.698  1.000 

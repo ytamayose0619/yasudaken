@@ -1,0 +1,85 @@
+prog_20220517_598 2D Heisenberg AF model on a honeycomb lattice with bond alternations. (looper-2.2.8 and parapack-2.1.1)
+
+FORMAT NUMBER = 598
+
+command line parameters:
+
+  SERIAL: max_L Nptr seed pset_name dump_prefix total_time max_dump
+  MPI:    max_L Nptr seed pset_name dump_prefix total_time max_dump np
+
+pset format
+
+  Nparm_i=4
+
+    spin2
+    L
+    Nloop
+    Nexcl
+
+  Nparm_d=3
+
+    alpha
+    jperp
+    temp
+
+Outputs
+
+1	I  format number = 598
+2	I  spin2
+3	I  L
+4	I  N_loop
+5	I  N_exclude
+6	R  alpha
+7	R  jperp
+8	R  temperature
+9	I  MaxIndx
+10	I  dump counter
+11	R  cputime
+
+12	C  initial state of rng
+
+13	R  E_z/N
+14	R  E_xy/N (improved)
+15	R  E^2/N^2
+16	R  usus
+17	R  usus2
+18	R  dynamic structure factor S(pi,pi,0) = ssus
+19	R  ssus2
+20	R  dynamic structure factor S(pi+2pi/Lx,pi       ,0       )
+21	R  dynamic structure factor S(pi       ,pi+2pi/Ly,0       )
+22	R  dynamic structure factor S(pi+2pi/Lx,pi+2pi/Ly,0       )
+23	R  dynamic structure factor S(pi       ,pi       ,2pi/beta)
+24	R  static structure factor S(pi,pi)
+25	R  <Nz Nz Nz Nz>
+26	R  static structure factor S(pi+2pi/Lx,pi      )
+27	R  static structure factor S(pi       ,pi+2pi/Ly)
+28	R  static structure factor S(pi+2pi/Lx,pi+2pi/Ly)
+
+total number of fields = 28
+
+
+accum_598 output
+
+1	I  spin2
+2	I  L
+3	R  alpha
+4	R  jperp
+5	R  temperature
+6	I  number of samples
+7	I  MaxIndx
+8	R  cputime per sample
+
+9,10	R  E & err
+11,12	R  usus & err
+13,14	R  ssus & err
+15,16	R  dynamic structure factor S(pi      ,pi      ,2pi/beta) & err
+17,18	R  static structure factor S(pi,pi) & err
+19,20	R  <Nz Nz Nz Nz> & err
+21,22	R  static structure factor S(pi+2pi/Lx,pi       ) & err
+23,24	R  static structure factor S(pi       ,pi+2pi/Ly) & err
+25,26	R  inverse gap & err
+27,28	R  correlation length in x-direction & err
+29,30	R  correlation length in y-direction & err
+31,32	R  heat capacity & err
+
+total number of fields = 32
